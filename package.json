@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "A simple bucketlist app using MEAN stack ",
   "main": "app.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app"
+    "start": "node app"
   },
   "dependencies": {
     "express": "~4.15.3",
@@ -15,5 +14,8 @@
     "body-parser": "~1.17.2"
   },
   "author": "Mohit",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/cli": "^1.7.3"
+  }
 }
