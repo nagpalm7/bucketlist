@@ -1,0 +1,28 @@
+#table{
+  width:80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+thead{
+
+  font-size: 20px;
+  color:purple;
+}
+th{
+  width:auto;
+  padding-bottom: 10px;
+  border-right:2px solid black;
+}
+td{
+  padding: 0px;
+  border-right: 2px solid black;
+  width:auto;
+  /*background-color: rgba(0, 0, 0, 0.3);*/
+}
+button{
+  width: 100%;
+  color: white;
+  background-color: red;
+  border: none;
+  height: 25px;
+}
