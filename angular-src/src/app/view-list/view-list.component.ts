@@ -29,4 +29,8 @@ export class ViewListComponent implements OnInit {
     this.listServ.deleteList(list._id).subscribe(
       response =>    this.lists = this.lists.filter(lists => lists !== list),)
     }
+
+    public onAddList(newList) {
+      this.lists = this.lists.concat(newList);
+  }
 }
