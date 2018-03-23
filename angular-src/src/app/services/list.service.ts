@@ -26,7 +26,7 @@ export class ListService {
   public addList(list:List) {
     let URI = `${this.serverApi}/bucketlist`;
     let headers = new Headers;
-    let body = JSON stringify({title : list.title,
+    let body = JSON.stringify({title : list.title,
     description : list.description, category : list.category});
     console.log(body);
     headers.append('Content-Type','application/json');
